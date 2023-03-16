@@ -1,0 +1,8 @@
+<p>employee-list works!</p>
+<li *ngFor="let employee of employees">
+    <a routerLink="{{employee.id}}"> {{employee.name}}</a>
+    
+</li>
+
+   
+   <router-outlet></router-outlet>
